@@ -26,7 +26,7 @@ function App() {
       </Routes>
     </Router>
 
-      <Home/>
+      
 
 <footer id='copyright'>Copyright © ITC, IIT Bombay</footer>
   </>
