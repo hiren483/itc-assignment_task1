@@ -19,6 +19,7 @@ function App() {
       </ul>
 
       <Routes>
+        <Route path="/itc-assignment_task1" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Event />} />
@@ -26,11 +27,10 @@ function App() {
       </Routes>
     </Router>
 
-      
-
 <footer id='copyright'>Copyright © ITC, IIT Bombay</footer>
   </>
   )
 }
 
 export default App
+
