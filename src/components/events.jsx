@@ -19,7 +19,7 @@ const events = () => {
 Students got to see how blockchain isn’t just about Bitcoin, how robotic swarms can help in disaster zones, and how private space startups are changing the space race. It sparked side conversations, follow-up readings, and even project ideas.
 With 370+ participants staying engaged through all three days, it became one of the most talked-about virtual events ITC has ever hosted — not because it was flashy, but because it genuinely made people curious about what comes next</p>
           </div>
-          <div className='img_container'><img src="/industryx.png" alt="IndustryX" className='event_img'/></div>
+          <div className='img_container'><img src={`${import.meta.env.BASE_URL}industryx.png`} alt="IndustryX" className='event_img' /></div>
         </div>
 
         <div className='event_list_parent'>
@@ -30,7 +30,8 @@ With 370+ participants staying engaged through all three days, it became one of 
             <h3 className='cool_text'>GatherTown Convocation: IITB in Pixels and Memories</h3>
             <p className='event_discription'>This was not just another online farewell — it was a carefully crafted virtual experience that brought the IIT Bombay campus to life in pixels. From iconic spots like the RC bench and badminton courts to hostel corridors and gathering spaces, every detail was recreated with care. Graduating students explored the map as avatars, reconnecting with friends and leaving heartfelt messages across familiar locations.The interactive dungeon game added a lively twist, sparking laughter and spontaneous moments of chaos. For the graduating batch, it was a meaningful send-off filled with nostalgia. For juniors, it offered a glimpse into the vibrant campus life that awaits them.For a few hours, the spirit of IIT Bombay felt present again — even through a screen.</p>
           </div>
-          <div className='img_container'><img src="/GatherTown.png" alt="GatherTown" className='event_img'/></div>
+          <div className='img_container'><img src={`${import.meta.env.BASE_URL}GatherTown.png`} alt="GatherTown" className='event_img' />
+          </div>
         </div>
 
         <div className='event_list_parent'>
@@ -40,7 +41,8 @@ With 370+ participants staying engaged through all three days, it became one of 
             <h3 className='cool_text'>Technovation: Solving Problems that Matter</h3>
             <p className='event_discription'>Technovation wasn’t just another coding contest — it was where ideas met execution. With a format that blended the intensity of a hackathon with the business sharpness of a startup pitch, teams were challenged to take real-world problems head-on. From ideation to prototyping and final presentations, participants were tested on their creativity, collaboration, and technical skills. The event provided a platform for aspiring innovators to showcase their ability to think beyond textbooks and create solutions that truly matter.</p>
           </div>
-          <div className='img_container'><img src="/Technovation.png" alt="Technovation" className='event_img'/></div>
+          <div className='img_container'><img src={`${import.meta.env.BASE_URL}Technovation.png`} alt="Technovation" className='event_img' />
+          </div>
         </div>
 
         <div className='event_list_parent'>
@@ -50,7 +52,8 @@ With 370+ participants staying engaged through all three days, it became one of 
             <h3 className='cool_text'>Inter-IIT Tech Meet: IITB’s Brainpower on Display</h3>
             <p className='event_discription'>At the Inter-IIT Tech Meet, IIT Bombay’s tech teams rose to the challenge, facing off against equally talented peers from institutes across the country. Whether it was crafting robust AI models, developing advanced hardware systems, or solving complex real-world problems, every task demanded sharp thinking and flawless execution. The event wasn’t just about winning — it was about pushing limits, learning from others, and representing IITB with pride. Moments like these highlighted the true strength of our student community.</p>
           </div>
-          <div className='img_container'><img src="/interiit.png" alt="Inter-IIT Tech Meet" className='event_img'/></div>
+          <div className='img_container'><img src={`${import.meta.env.BASE_URL}interiit.png`} alt="Inter-IIT Tech Meet" className='event_img' />
+          </div>
         </div>
 
       </div>
